@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "990917183887",
+    "firebase_url": "https://chatapp-649a6-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-649a6",
+    "storage_bucket": "chatapp-649a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990917183887:android:bee31060274681393763fa",
+        "android_client_info": {
+          "package_name": "com.asadullo.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990917183887-pqeem08pc2sgl9r9ql8sjfa2iftvg2d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0qt3Ugt72U56g79XPCYmVUaIwUhHLclM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990917183887-pqeem08pc2sgl9r9ql8sjfa2iftvg2d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990917183887:android:7dc5709903deb1fe3763fa",
+        "android_client_info": {
+          "package_name": "com.asadullo.goofgleregistratsiya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990917183887-pqeem08pc2sgl9r9ql8sjfa2iftvg2d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0qt3Ugt72U56g79XPCYmVUaIwUhHLclM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990917183887-pqeem08pc2sgl9r9ql8sjfa2iftvg2d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

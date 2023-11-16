@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:id="@+id/lv"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_chats"
+            android:layout_width="172dp"
+            android:layout_height="50dp"
+            app:cornerRadius="20dp"
+            android:text="Chats"
+            android:textSize="19sp"
+            android:backgroundTint="#2675EC"
+            android:layout_marginRight="5dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_groups"
+            android:layout_width="172dp"
+            android:layout_height="50dp"
+            app:cornerRadius="20dp"
+            android:text="Groups"
+            android:textSize="19sp"
+            android:textColor="#848484"
+            android:backgroundTint="#e5e5e5"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rv"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/lv"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/add_groups"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:layout_constraintHorizontal_bias="0.9"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

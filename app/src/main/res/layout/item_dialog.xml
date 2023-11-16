@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/edt_group_name"
+        android:hint="Group name"
+        android:background="@drawable/bac_1"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="100dp"
+        android:backgroundTint="#2565ec"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_group_name"
+        app:layout_constraintRight_toRightOf="@id/edt_group_name"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
